@@ -11,7 +11,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+        $this->app->bind(\App\Repositories\LoanDetailRepositoryInterface::class, \App\Repositories\LoanDetailRepository::class);
+        $this->app->bind(\App\Services\EmiServiceInterface::class, \App\Services\EmiService::class);
     }
 
     /**
