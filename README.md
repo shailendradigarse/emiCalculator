@@ -98,6 +98,14 @@ php artisan db:seed --class=UserSeeder
 ```bash
 php artisan db:seed --class=LoanDetailsSeeder
 ```
+10. **Login Details**:
+You can use the following credentials to log in:
+
+```bash
+EmailAddress=developer@example.com
+Password=Test@Password123#
+```
+
 
 ## Summary
 Cloned the repository and installed dependencies.
